@@ -93,3 +93,19 @@ body{
 .attribution a {
     color: hsl(228, 45%, 44%);
 }
+@media only screen 
+and (min-device-width : 320px) 
+and (max-device-width : 480px){
+    .container{
+        margin: 15% 5%;
+    }
+    .para3{
+        padding: 2% 0% 14%;
+    }
+    .lower-portion{
+        flex-direction: column;
+    }
+    .left-portion,.right-portion{
+        padding: 3% 0%;
+    }
+}
